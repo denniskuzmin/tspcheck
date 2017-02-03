@@ -3,6 +3,7 @@ var quadtree = d3.quadtree();
 
 var fs = require('fs');
 var tspData;
+
 fs.readFile('sahara', 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
@@ -10,6 +11,7 @@ fs.readFile('sahara', 'utf8', function (err,data) {
   tspData=data;
   processFile(); 
 });
+
 function processFile() {
     console.log('data');
     console.log(tspData);

@@ -1,6 +1,6 @@
 The basic idea is to connect optimal route with optimal route.
 1. find closest pairs (CP) by quadtree
 2. remove any pair that has dot from closer pair
-3. loop through each dot of each route by quadtree to find closest dot from another route and connect them by sibling points checking it's result not intersecting anything
+3. loop through each dot of each route by quadtree to find closest dot from another route and connect them by sibling points checking the result does not intersect anything
 4. compare it with other pairs of routes and choose the shortest one.
 5. repeat 3-4

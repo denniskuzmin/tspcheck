@@ -1,1 +1,3 @@
-The basic idea is to connect
+The basic idea is to connect optimal routes with optimal routes.
+1. find closest pairs
+2. remove any pair that has dot from closer pair

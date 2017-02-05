@@ -14,7 +14,7 @@
     "tsp"
   ],
   "author": "Denis Kuzmin",
-  "license": "Unlicense",
+  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/denniskuzmin/tspcheck/issues"
   },
